@@ -33,3 +33,10 @@ document.getElementById("score").innerHTML =
 
 document.getElementById("completed").innerHTML =
     savedCompleted;
+function resetProgress() {
+    localStorage.setItem("ecoScore", 0);
+    localStorage.setItem("completedHabits", 0);
+
+    document.getElementById("score").innerHTML = 0;
+    document.getElementById("completed").innerHTML = 0;
+}
