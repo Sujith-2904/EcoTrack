@@ -39,4 +39,6 @@ function resetProgress() {
 
     document.getElementById("score").innerHTML = 0;
     document.getElementById("completed").innerHTML = 0;
+
+    alert("Eco progress has been reset!");
 }
