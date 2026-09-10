@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EcoTrack - Habits</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+
+        <h2>🌱 EcoTrack</h2>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="habits.html">Habits</a>
+            <a href="progress.html">Progress</a>
+            <a href="tips.html">Tips</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Habits Section -->
+    <main>
+
+        <section class="dashboard">
+
+            <h1>🌱 Daily Eco Habits</h1>
+
+            <p>Complete your habits and earn eco points!</p>
+
+
+            <div class="cards">
+
+                <!-- Habit 1 -->
+                <div class="card">
+
+                    <h3>💧 Save Water</h3>
+
+                    <p>
+                        Take shorter showers and avoid wasting water.
+                    </p>
+
+                    <button onclick="completeHabit(this, 10)">
+                        Complete
+                    </button>
+
+                </div>
+
+
+                <!-- Habit 2 -->
+                <div class="card">
+
+                    <h3>♻️ Recycle</h3>
+
+                    <p>
+                        Separate recyclable waste from other waste.
+                    </p>
+
+                    <button onclick="completeHabit(this, 15)">
+                        Complete
+                    </button>
+
+                </div>
+
+
+                <!-- Habit 3 -->
+                <div class="card">
+
+                    <h3>🚲 Use Bicycle</h3>
+
+                    <p>
+                        Use a bicycle instead of a vehicle for short trips.
+                    </p>
+
+                    <button onclick="completeHabit(this, 20)">
+                        Complete
+                    </button>
+
+                </div>
+
+
+                <!-- Habit 4 -->
+                <div class="card">
+
+                    <h3>💡 Save Electricity</h3>
+
+                    <p>
+                        Switch off lights and fans when not needed.
+                    </p>
+
+                    <button onclick="completeHabit(this, 10)">
+                        Complete
+                    </button>
+
+                </div>
+
+
+                <!-- Habit 5 -->
+                <div class="card">
+
+                    <h3>🛍️ Reusable Bag</h3>
+
+                    <p>
+                        Use reusable bags instead of plastic bags.
+                    </p>
+
+                    <button onclick="completeHabit(this, 15)">
+                        Complete
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Score -->
+        <section class="tip-box">
+
+            <h2>🏆 Today's Score</h2>
+
+            <p id="totalScore">0 points</p>
+
+            <p id="totalCompleted">
+                0 habits completed
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>© 2026 EcoTrack | Built for a Greener Future 🌍</p>
+
+    </footer>
+
+
+    <script src="js/habits.js"></script>
+
+</body>
+
+</html>

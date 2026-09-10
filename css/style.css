@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8f4;
+    color: #333;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #176b3a;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+}
+
+nav h2 {
+    font-size: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #dff3e7;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+
+    background-color: #176b3a;
+    color: white;
+
+    padding: 14px 25px;
+    border-radius: 6px;
+
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #0e4d29;
+}
+
+
+/* Dashboard */
+
+.dashboard {
+    padding: 50px;
+    text-align: center;
+}
+
+.dashboard h2 {
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    background-color: white;
+
+    width: 220px;
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #176b3a;
+
+    margin-bottom: 10px;
+}
+
+
+/* Tip */
+
+.tip-box {
+    text-align: center;
+
+    background-color: white;
+
+    width: 600px;
+    max-width: 90%;
+
+    margin: 20px auto 60px;
+
+    padding: 35px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tip-box h2 {
+    margin-bottom: 15px;
+}
+
+.tip-box p {
+    margin-bottom: 20px;
+}
+
+.tip-box button {
+    background-color: #176b3a;
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #176b3a;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
+.card button {
+    background-color: #176b3a;
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+}
+
+.card button:hover {
+    background-color: #0e4d29;
+}
+
+.card button:disabled {
+    background-color: #777;
+    cursor: not-allowed;
+}
+/* Progress */
+
+.progress-container {
+    text-align: left;
+    margin-top: 25px;
+}
+
+.progress-container p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #176b3a;
+}
+
+.monday {
+    width: 80%;
+}
+
+.tuesday {
+    width: 60%;
+}
+
+.wednesday {
+    width: 90%;
+}
+
+.thursday {
+    width: 50%;
+}
+
+.friday {
+    width: 75%;
+}
+
+.saturday {
+    width: 85%;
+}
+
+.sunday {
+    width: 65%;
+}
