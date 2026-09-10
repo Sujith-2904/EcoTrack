@@ -23,9 +23,9 @@ function completeHabit(button, points) {
 
 
     // Save data in browser
-    localStorage.setItem("ecoScore", score);
+    localStorage.setItem("ecoScore is", score);
 
-    localStorage.setItem("completedHabits", completed);
+    localStorage.setItem("completedHabits are", completed);
 
 
     // Change button
