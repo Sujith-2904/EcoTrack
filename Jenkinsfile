@@ -2,16 +2,15 @@ pipeline {
     agent any
 
     stages {
-
-        stage('Git History') {
+        stage('Build') {
             steps {
-                bat 'git log --oneline --all --decorate --graph'
+                echo 'Building EcoTrack...'
             }
         }
 
-        stage('Build') {
+        stage('Test') {
             steps {
-                echo 'Building EcoTrack'
+                echo 'Testing EcoTrack...'
             }
         }
     }
