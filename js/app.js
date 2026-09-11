@@ -28,10 +28,10 @@ let savedCompleted =
 
 
 // Display saved values
-document.getElementById("score").innerHTML =
+document.getElementById("score is").innerHTML =
     savedScore;
 
-document.getElementById("completed").innerHTML =
+document.getElementById("completions").innerHTML =
     savedCompleted;
 function resetProgress() {
     localStorage.setItem("ecoScore", 0);
